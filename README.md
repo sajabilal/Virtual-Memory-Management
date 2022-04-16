@@ -1,11 +1,10 @@
 # Virtual-Memory-Management
 Virtual Memory Management
 Authored by Saja abu Aisheh
-308444223
 
 ==Description==
 
-==Description of ex6.c==
+==Description of Virtual-Memory-Management.c==
 the program is a simulation of virtual memory management, it deals with requests of storing and loading of bits (text, data, swap, heap and bss).
 and bit stored or loaded shall be present in physical memory though different functions depending on its status in file descriptor. 
 the program prints the physical memory, swap memory and file descriptor after load and stor requests are done.
@@ -31,9 +30,9 @@ the program prints the physical memory, swap memory and file descriptor after lo
 exec_file: the file which contains bits of text, data, bss, swap and heap 
 
 ==how to compile== 
- g++ -o ex6  main.cpp sim_mem.cpp
+ g++ -o Virtual-Memory-Management  main.cpp sim_mem.cpp
  
-to run: ./ex6
+to run: ./Virtual-Memory-Management
 
 ==input== 
 exe_file_name, swap_file_name, int text_size, int data_size, int bss_size, int heap_stack_size, int num_of_pages, int page_size for constructor

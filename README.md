@@ -1,7 +1,4 @@
 # Virtual-Memory-Management
-Virtual Memory Management
-Authored by Saja abu Aisheh
-
 ==Description==
 
 ==Description of Virtual-Memory-Management.c==
